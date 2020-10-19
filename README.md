@@ -1,4 +1,8 @@
 # Flat-struct
+The main purpose of this package is to flatten event structure fields into map[string]string for its fitting into 2 ClickHouse columns: 
+ * keys (Array(LowCardinality(String))
+ * vals Array(String)
+
 This package allows you to make map[string]string from any structure.
 
 Limitation of solution:
