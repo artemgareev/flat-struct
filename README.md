@@ -10,7 +10,7 @@ Limitation of solution:
  2. structure field value cannot be type of Array, Map, Slice, Interface
 
 ## Benchmark
-Reflection solution is ~2 times slower than hand coded when make **map[string]string from structure** 
+Presented solution is ~2 times slower than hand coded conversion while making **map[string]string from structure** 
 
 ````
 BenchmarkWithReflection-4      	 1023620	 1105 ns/op	   512 B/op	   12 allocs/op
